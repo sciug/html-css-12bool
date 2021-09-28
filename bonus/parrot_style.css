@@ -1,11 +1,25 @@
+
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
 .row>div{
-    height: 50px;
+    height: 25px;
 }
 
 
 .deepRed{
     background-color: #DF1800;
 }
+
 
 
 .brightRed{
