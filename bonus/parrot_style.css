@@ -1,19 +1,57 @@
-
+body{
+    overflow-y: hidden;
+}
 .container {
     max-width: 300px;
     margin: 0 auto;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+   
+    position: relative;
+    height: 100vh;
+    animation: moveParrot 1s cubic-bezier(0.01,-0.44, 0.2, 1) alternate infinite,colorParrot 6s linear infinite;
+    
+
+    
+    
+       
 }
+
+
+
+@keyframes colorParrot {
+
+    from{filter: hue-rotate(0deg);
+   }
+
+    to{filter: hue-rotate(360deg);
+       
+    }
+    
+}
+
+
+@keyframes moveParrot {
+
+    from{top:30px;
+   }
+
+    to{top:0px;
+       
+    }
+    
+}
+
 
 
 
 
 .row>div{
     height: 25px;
+   
 }
+
 
 
 .deepRed{
