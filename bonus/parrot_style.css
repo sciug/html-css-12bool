@@ -1,0 +1,66 @@
+.row>div{
+    height: 50px;
+}
+
+
+.deepRed{
+    background-color: #DF1800;
+}
+
+
+.brightRed{
+    background-color: #F53100;
+}
+
+.yellow{
+    background-color: #FFCC23;
+}
+
+
+.paleYellow{
+    background-color: #FFE29C;
+}
+.orange{
+    background-color: #FF7C2A;
+}
+
+
+.pink{
+    background-color: #FEB485;
+}
+.green{
+    background-color: #0CB800;
+}
+
+
+.brightgreen{
+    background-color: #82E101;
+}
+.brightyellow{
+    background-color: #FEF423;
+}
+
+
+.blue{
+    background-color:#3B6AFE;
+}
+.blueSky{
+    background-color:#63BCFF;
+}
+
+
+.purple{
+    background-color: #8620D9;
+}
+
+.brown{
+    background-color: #611F00;
+}
+.palebrown{background-color: #AA4D00;}
+
+.brightbrown{
+    background-color: #DB7B14;
+}
+.black{
+    background-color: black;
+}
