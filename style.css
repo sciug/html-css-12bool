@@ -1,1 +1,21 @@
 
+div.row{
+    border: none;
+    padding: 0;
+}
+div{
+    border: 1px solid black;
+    text-align: center;
+    background-color: #ffc0cb;
+    padding: 5rem 0;
+}
+
+.row>.row{padding: 5px;
+    border: 1px solid black;}
+
+
+.row>.row div{
+    border: 1px solid white;
+    background-color: #f07f80;
+
+}
